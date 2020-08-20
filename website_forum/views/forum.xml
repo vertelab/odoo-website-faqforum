@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <odoo>
     <data>
-        <!-- MAIN FAQ MENU -->
-        <menuitem name="FAQ" id="menu_website_forum"
+        <!-- MAIN Forum MENU -->
+        <menuitem name="Forum" id="menu_website_forum"
             parent="website.menu_website_configuration" sequence="50" groups="website.group_website_designer"/>
 
-        <menuitem name="FAQ" id="menu_website_forum_global"
+        <menuitem name="Forum" id="menu_website_forum_global"
             parent="website.menu_website_global_configuration" sequence="170" groups="website.group_website_designer"/>
 
         <record id="badge_form_view_forum" model="ir.ui.view">
